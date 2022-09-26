@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid #ffccff;
+    background-color: #ffccff;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.input {
+    text-align: center;
+    margin: 55px 0 5px 0;
+}
+
+.button {
+    margin: 4px 4px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border-color: skyblue;
+    cursor: pointer;
+    padding: 10px 12px;
+    width: 40px;
+}
+
+#t {
+    text-align: center;
+}

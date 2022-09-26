@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="city.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <p> fill this form</p>
+        <p id="b"></p>
+
+        <form action="#">
+            <div class="div" id="f"><label for="city">City1:</label>
+                <select name="city" id="city">
+				<option value="">select</option>
+				<option value="indore">Indore</option>
+				<option value="bhopal">Bhopal</option>
+				<option value="delhi">Delhi</option>
+				<option value="mumbai">Mumbai</option>
+			</select>
+            </div>
+            <div class="div" id="s"><label for="city2">City2:</label>
+                <select disabled name="city2" id="city2">
+				<option value="">select</option>
+				<option value="indore">Indore</option>
+				<option value="bhopal">Bhopal</option>
+				<option value="delhi">Delhi</option>
+				<option value="mumbai">Mumbai</option>
+
+			</select>
+            </div>
+            <div class="div" id="t"><label for="city3">City3:</label>
+                <select disabled name="city3" id="city3">
+				<option value="">select</option>
+				<option value="indore">Indore</option>
+				<option value="bhopal">Bhopal</option>
+				<option value="delhi">Delhi</option>
+				<option value="mumbai">Mumbai</option>
+			</select>
+            </div>
+
+            <br><br>
+            <input id="btn" type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="city.js"></script>
+</body>
+
+</html>
