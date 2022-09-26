@@ -1,36 +1,47 @@
 let input = document.getElementById('input')
 let button = document.querySelectorAll('.button')
+let op = document.querySelectorAll('.op')
 let bag = ""
-let a = 0
-let c = 0
-console.log(button)
+let b = 0
+
 for (item of button) {
     item.addEventListener('click', (e) => {
-        let b = e.target.innerText
+        let bb = e.target.innerText
         if (e.target.innerText == "c") {
             bag = ""
             input.value = ""
-            a = 0
-            c = 0
+            b = 0
+
         } else if (e.target.innerText == "=") {
             let r = eval(bag)
             input.value = r
-            a = 0
+            bag = r
+            b = 0
+
         } else {
-            if (b == "+" || b == "-" || b == "*" || b == "/" || b == '%') {
-                a++
-            }
-            if (b == '.') {
-                c++
-            }
-            if (a > 1 || c > 1) {
-                console.log("not")
-            } else {
-                let bt = e.target.innerText
-                input.value = bt
-                bag = bag + bt
-                input.value = bag
-            }
+
+            bag = bag + bb
+            b = 0
+            input.value = bag
+
         }
+    })
+}
+
+for (i of op) {
+    i.addEventListener('click', (e) => {
+        let c = e.target.innerText
+
+        if (b != c) {
+            b = c
+
+            bag = bag + c
+            input.value = bag
+        } else {
+            alert('not enter same opertor')
+        }
+
+
+
     })
 }

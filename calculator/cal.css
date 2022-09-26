@@ -31,6 +31,16 @@ body {
     width: 40px;
 }
 
+.op {
+    margin: 4px 4px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border-color: skyblue;
+    cursor: pointer;
+    padding: 10px 12px;
+    width: 40px;
+}
+
 #t {
     text-align: center;
 }
