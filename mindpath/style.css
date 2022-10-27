@@ -1,0 +1,80 @@
+main {
+    display: block;
+    margin: auto;
+    height: 620px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+main>header {
+    background-color: rgb(80, 154, 221);
+    height: 60px;
+    margin-top: 0;
+}
+
+main>header>h1 {
+    padding: 10px 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+img {
+    height: 180px;
+    width: 550px;
+    padding: 10px 25px;
+}
+
+.greybox {
+    display: flex;
+    background-color: rgb(243 244 249 / 80%);
+    height: 40px;
+    align-items: center;
+}
+
+.greybox>button {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid grey;
+    margin-left: 30px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: aqua;
+    height: 40px;
+    background-color: rgb(243 244 249 / 80%);
+    ;
+}
+
+.greybox>button:nth-child(2) {
+    color: grey;
+    background-color: rgb(243 244 249 / 80%);
+    border: 0px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.data>div:nth-child(1) {
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 0;
+}
+
+span {
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+span:nth-child(2) {
+    color: aqua;
+}

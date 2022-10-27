@@ -32,8 +32,8 @@ for (i of op) {
     i.addEventListener('click', (e) => {
         let c = e.target.innerText
 
-        if (b != c) {
-            b = c
+        if (b < 1) {
+            b++
 
             bag = bag + c
             input.value = bag
