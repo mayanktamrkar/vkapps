@@ -53,17 +53,9 @@ img {
     border: 0px;
 }
 
-.data {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.data {
+.data>div {
     display: grid;
     grid-template-columns: 150px auto;
-}
-
-.data>div:nth-child(1) {
     font-weight: 600;
     margin-left: 20px;
     padding: 0;
