@@ -1,0 +1,36 @@
+#tables {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+th {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    background-color: azure;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.input {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+button {
+    border: none;
+    background-color: rgb(56, 228, 67);
+    padding: 5px 15px;
+}
+
+#inputdata {
+    border: none;
+    background-color: rgb(242, 247, 184);
+}
